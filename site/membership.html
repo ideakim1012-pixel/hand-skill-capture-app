@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>손결 회원 안내</title>
+<style>
+:root{--bg:#faf8f5;--fg:#222;--card:#fff;--line:#e6e0d8;--accent:#8a5a2b}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1917;--fg:#eee;--card:#262321;--line:#3a3531;--accent:#d9a066}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,"Noto Sans KR",sans-serif;line-height:1.6}
+main{max-width:960px;margin:0 auto;padding:32px 16px}
+h1{margin:0 0 8px}.sub{opacity:.8;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card.hot{border-color:var(--accent);border-width:2px}
+.price{font-size:1.5rem;font-weight:700;color:var(--accent)}
+ul{padding-left:18px;margin:12px 0 0}.note{font-size:.85rem;opacity:.75;margin-top:24px}
+.tag{display:inline-block;font-size:.75rem;border:1px solid var(--accent);color:var(--accent);border-radius:99px;padding:0 8px}
+</style>
+</head>
+<body>
+<main>
+<h1>손결 회원 안내</h1>
+<p class="sub">영상으로 참여하려면 회원권이 필요합니다. 등급에 따라 이용 혜택이 달라집니다.</p>
+<div class="grid">
+<section class="card"><h2>멤버</h2><div class="price">연 49,000원</div>
+<ul><li>월 10건 업로드</li><li>일반 심사</li><li>기본 촬영 가이드</li></ul></section>
+<section class="card"><h2>프로</h2><div class="price">연 149,000원</div>
+<ul><li>월 50건 업로드</li><li>우선 심사</li><li>구매자 목록 상단 가중</li><li>심화 가이드, Pro 배지</li></ul></section>
+<section class="card hot"><span class="tag">선착순 100명</span><h2>파운더</h2><div class="price">299,000원 (1회)</div>
+<ul><li>3년 이용, 이후 갱신가 동결</li><li>무제한 업로드, 최우선 심사</li><li>고유 번호 배지 #001~#100</li><li>월 1회 1:1 점검, 신기능 먼저 사용</li></ul></section>
+</div>
+<p class="note">표시된 금액과 혜택은 준비 중인 초안이며 확정 전입니다. 회원 혜택은 이용 서비스에 대한 것이며 수익을 보장하지 않습니다. 환불은 관련 법령과 약관을 따릅니다.</p>
+</main>
+</body>
+</html>
